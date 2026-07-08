@@ -1,0 +1,73 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+% Configuración de márgenes
+\geometry{top=2.5cm, bottom=2.5cm, left=3cm, right=3cm}
+
+% Formato de secciones
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection.}{0.5em}{}
+
+% Datos del título
+\title{\textbf{Informe Técnico: Análisis de Rendimiento de Sistemas}}
+\author{\textbf{RenatoS Salsilli Poveda} \\ Departamento de Ingeniería Informatica \\ Universidad de Playa Ancha}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Este documento presenta un informe básico estructurado en \LaTeX{}. En él se describen los componentes fundamentales de un reporte técnico, incluyendo la introducción, la metodología aplicada, una sección de análisis de datos con tablas y ecuaciones matemáticas, y las conclusiones principales del estudio.
+\end{abstract}
+
+\newpage
+
+\section{Introducción}
+En el ámbito de la ingeniería y la investigación, la documentación precisa de los experimentos y análisis es fundamental. Este informe sirve como plantilla básica para la presentación de resultados institucionales o académicos.
+
+El objetivo principal es demostrar cómo estructurar un documento formal utilizando elementos como secciones, subsecciones, entornos matemáticos y tablas de datos estructuradas.
+
+\section{Metodología}
+Para el desarrollo de este análisis se recopilaron métricas de rendimiento del sistema bajo distintas cargas de trabajo. El proceso se dividió en tres fases principales:
+\begin{enumerate}
+    \item Configuración del entorno de prueba y calibración de instrumentos.
+    \item Ejecución de simulaciones con cargas de estrés variables.
+    \item Extracción y procesamiento estadístico de los tiempos de respuesta.
+\end{enumerate}
+
+\subsection{Modelado Matemático}
+El comportamiento del sistema se modeló utilizando la ecuación de balance de rendimiento estándar, definida de la siguiente manera:
+
+\section{Resultados y Análisis}
+Los datos obtenidos durante las pruebas de estrés se consolidaron para su evaluación. La Tabla~\ref{tab:resultados} resume las métricas clave observadas.
+
+\begin{table}[h!]
+\centering
+\caption{Métricas de rendimiento según la carga del sistema.}
+\label{tab:resultados}
+\begin{tabular}{cccc}
+\toprule
+\textbf{ID Prueba} & \textbf{Carga (\%)} & \textbf{Tiempo de Respuesta (ms)} & \textbf{Estado} \\
+\midrule
+001 & 25  & 120 & Estable \\
+002 & 50  & 145 & Estable \\
+003 & 75  & 190 & Alerta \\
+004 & 100 & 320 & Crítico \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Como se observa en la tabla, el tiempo de respuesta experimenta un incremento exponencial a medida que la carga del sistema se aproxima a su capacidad máxima ($100\%$).
+
+\section{Conclusiones}
+El análisis demuestra la viabilidad del modelo matemático para predecir el comportamiento del sistema. Se recomienda implementar mecanismos de balanceo de carga para evitar que el sistema opere de forma continua en umbrales superiores al $75\%$, garantizando así la estabilidad de los tiempos de respuesta.
+
+\end{document}
