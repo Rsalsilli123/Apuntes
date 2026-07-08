@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.8)  8 JUL 2026 17:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.8)  8 JUL 2026 18:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -399,13 +399,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  11470 strings out of 467871
  180145 string characters out of 5418377
- 619573 words of memory out of 5000000
+ 619548 words of memory out of 5000000
  40216 multiletter control sequences out of 15000+600000
  634254 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,9n,79p,431b,473s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/xxrou/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/xxrou/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/xxrou/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/xxrou/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/xxrou/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on c:\Users\xxrou\OneDrive\Desktop\cosas\Carpeta_GitHub\Apuntes\build\main.pdf (2 pages, 81284 bytes).
+Output written on c:\Users\xxrou\OneDrive\Desktop\cosas\Carpeta_GitHub\Apuntes\build\main.pdf (2 pages, 81375 bytes).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 500000)
