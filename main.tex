@@ -16,13 +16,15 @@
 \titleformat{\subsection}{\normalsize\bfseries}{\thesubsection.}{0.5em}{}
 
 % Datos del título
-\title{\textbf{Informe Sobre poryecto titulo}}
+\title{\textbf{Informe Sobre proyecto titulo}}
 \author{\textbf{RenatoS Salsilli Poveda} \\ Departamento de Ingeniería Informatica \\ Universidad de Playa Ancha}
 \date{\today}
 
 \begin{document}
 
 \maketitle
+
+\newpage
 
 \begin{abstract}
 Este documento presenta un informe básico estructurado en \LaTeX{}. En él se describen los componentes fundamentales de un reporte técnico, incluyendo la introducción, la metodología aplicada, una sección de análisis de datos con tablas y ecuaciones matemáticas, y las conclusiones principales del estudio.
@@ -66,6 +68,8 @@ Los datos obtenidos durante las pruebas de estrés se consolidaron para su evalu
 \end{table}
 
 Como se observa en la tabla, el tiempo de respuesta experimenta un incremento exponencial a medida que la carga del sistema se aproxima a su capacidad máxima ($100\%$).
+
+\newpage
 
 \section{Conclusiones}
 El análisis demuestra la viabilidad del modelo matemático para predecir el comportamiento del sistema. Se recomienda implementar mecanismos de balanceo de carga para evitar que el sistema opere de forma continua en umbrales superiores al $75\%$, garantizando así la estabilidad de los tiempos de respuesta.
