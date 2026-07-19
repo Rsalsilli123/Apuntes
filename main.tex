@@ -45,8 +45,32 @@ Para el desarrollo de este análisis se recopilaron métricas de rendimiento del
     \item Extracción y procesamiento estadístico de los tiempos de respuesta.
 \end{enumerate}
 
-\subsection{Modelado Matemático}
-El comportamiento del sistema se modeló utilizando la ecuación de balance de rendimiento estándar, definida de la siguiente manera:
+\subsection{Raspberry PI}
+La Raspberry pi es una computadora de bajo costo y con un tamaño compuesto, este puede conectarse a un monitor, como tambien conectarle mouse y teclado. Este mini computadora puede correr el diversos sistemas operativos. Es capaz de hacer la mayoria de tareas de una computadora convencional, como son navegar por internet, manipular documentos, hasta ocuparse para videojuegos.
+
+Otras caracteristicas que posee es que dispositivo es poder interactuar con el mundo exterior, ocuparse para proyectos digitales como son la musica y videos, estaciones meteorilogicas, etc. Y puede ocuparse para cualquier persona para aprender a programar y enterder como funcionan los computadores.
+
+Existen distintos tipos de placas de Raspberry y la que hoy se esta utilizando para este proyecto es la Raspberry PI 4". Donde sus especificaciones tecnicas son las sigueintes:
+\begin{enumerate}
+    \item Procesador: Broadcom BCM2711, QuadCore Cortex-A72 (ARM v8) 64-bits.
+    \item RAM: 4 GB LPDDDR4-2400 SDRAM
+    \item WIFI: 2.4GHz y 5.0 GHz IEEE 802.11 ac Wireless
+    \item Bluetooth: 5.0
+    \item USB: 2 USB 3.0 y 2 USB 2.0
+    \item GPIO de 40 pines estandar de Raspberry PI.
+    \item Puerto MICRO-HDMI (soporte hasta 60 FPS 4K)
+    \item Lane MIPI DSI display port
+    \item Lane MPI CSI camera port
+    \item Puerto de 4 polos de audio estereo y video componente
+    \item H.265 (4K 60 decode), H264 (1080p60 decode, 1080p30 encode)
+    \item OpenGL ES 3.0 graphics
+    \item Puerto Micro-SD (utilizado para SO) 
+    \item 5V DC por conector USB-C
+    \item 5V DC por Header GPIO
+    \item
+\end{enumerate}
+
+Para los componentes como son la RAM y procesador se han colocado disipadores de calor con pasta termica para una disipacion de calor, como tambien un mini ventilador conectados a pines de la placa para un buen flujo de aire y que tenga una mejor ventilacion.
 
 \section{Resultados y Análisis}
 Los datos obtenidos durante las pruebas de estrés se consolidaron para su evaluación. La Tabla~\ref{tab:resultados} resume las métricas clave observadas.
